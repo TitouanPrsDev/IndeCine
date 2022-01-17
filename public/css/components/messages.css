@@ -1,0 +1,13 @@
+.message-container {
+    padding: .8rem 1.6rem;
+    margin-bottom: 1.5rem;
+    border-radius: .5rem;
+}
+
+.message-container.success {
+    background-color: var(--color_green);
+}
+
+.message-container.error {
+    background-color: var(--color_red);
+}

@@ -1,0 +1,33 @@
+nav {
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    width: 15%;
+    height: calc(100% - 5rem);
+    padding: 2rem;
+    border-right: 1px solid var(--color_light-grey);
+    background-color: var(--color_white);
+}
+
+nav .selected-menu p {
+    font-weight: 600;
+}
+nav .menu.top, nav .submenu {
+    display: flex;
+    align-items: center;
+    padding: .6rem 0;
+}
+
+nav .menu:not(.top) {
+    margin-top: 1rem;
+}
+
+nav .menu:not(.top) > p {
+    margin-bottom: .75rem;
+    font-weight: 500;
+}
+
+nav img {
+    height: 1.5rem;
+    margin-right: 1rem;
+}

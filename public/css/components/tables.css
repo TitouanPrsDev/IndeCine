@@ -1,0 +1,91 @@
+.table-container {
+    border: 1px solid var(--color_light-grey);
+    border-radius: .5rem;
+    background-color: var(--color_white);
+}
+
+.table-container.no-footer table {
+    border-bottom: none;
+}
+
+.table-container .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.table-container .table-header p {
+    font-size: 1.05rem;
+}
+
+.table-container .table-header form {
+    display: flex;
+}
+
+.table-container table {
+    width: 100%;
+    border-top: 1px solid var(--color_light-grey);
+    border-bottom: 1px solid var(--color_light-grey);
+    border-collapse: collapse;
+}
+
+.table-container table thead {
+    border-bottom: 1px solid var(--color_light-grey);
+    background-color: var(--color_blue-grey);
+}
+
+.table-container table th {
+    padding: .75rem 1.5rem;
+    font-weight: 500;
+    color: var(--color_dark-grey);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.table-container table th:first-child {
+    width: 8%;
+}
+.table-container table th.w50 {
+    width: 50%;
+}
+
+.table-container table th:nth-last-child(2) {
+    width: 14%;
+}
+
+.table-container table th:last-child {
+    width: 7%;
+}
+
+.table-container table tr {
+    cursor: pointer;
+}
+
+.table-container table td {
+    padding: .75rem 1.5rem;
+}
+
+.table-container .table-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.table-container .table-footer .lines-number {
+    width: auto;
+}
+
+.table-container .table-footer .lines-number, .table-container .table-footer .change-page {
+    display: flex;
+    align-items: center;
+}
+
+.table-container .table-footer .lines-number select {
+    width: auto;
+    margin: 0 1rem;
+}
+
+
+.table-container .table-footer .change-page button:not(:last-child) {
+    margin-right: 1rem;
+}

@@ -1,0 +1,74 @@
+.form-container {
+    padding: 4rem 3.5rem;
+    border-radius: .5rem;
+    background-color: var(--color_white);
+    box-shadow: .5rem .5rem 1rem .5rem rgba(60, 66, 87, .07);
+}
+
+.form-container.hcenter {
+    margin: 0 auto;
+}
+
+.form-container.w33 {
+    width: 33%;
+}
+
+.form-container.w55 {
+    width: 55%;
+}
+
+.form-container h2 {
+    margin-bottom: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color_dark-grey);
+}
+
+.form-container > p {
+    margin-top: 2rem;
+    color: var(--color_dark-grey)
+}
+
+.form-container > p a {
+    font-weight: 500;
+    color: var(--color_blue);
+}
+
+.form-container .form-group {
+    display: flex;
+}
+
+.form-container .form-group:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.form-container .form-field {
+    width: 100%;
+}
+
+.form-container .form-field.w33 {
+    width: 50%;
+}
+
+.form-container .form-field.w15 {
+    width: 15%;
+}
+.form-container .form-field.w20 {
+    width: 20%;
+}
+.form-container .form-field.w15 input, .form-container .form-field.w20 input {
+    text-align: center;
+}
+.form-container .form-field:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.form-container .form-field label {
+    font-weight: 500;
+    color: var(--color_dark-grey);
+}
+
+.form-container .form-field p.field-error {
+    font-size: .9rem;
+    color: var(--color_red);
+}

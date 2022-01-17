@@ -1,0 +1,53 @@
+input, select, textarea, fieldset {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--color_light-grey);
+    border-radius: .5rem;
+}
+
+input:not([type='checkbox'], [readonly]):focus {
+    transition: outline .1s;
+    outline: 2px solid var(--color_light-blue);
+}
+
+input:not([type='submit']), select, textarea {
+    margin: .6rem 0;
+    font-size: .95rem;
+}
+
+input:not([type='submit']), select {
+    padding: .6rem 1.2rem;
+}
+
+textarea {
+    padding: .8rem 1.2rem;
+}
+
+input[type='submit'] {
+    padding: 1rem 0;
+    font-weight: 500;
+    color: var(--color_white);
+    cursor: pointer;
+}
+
+input[type='submit'].bg-blue {
+    background-color: var(--color_blue);
+}
+
+input[type='submit'].bg-red {
+    background-color: var(--color_red);
+}
+
+input[type='file'], select {
+    cursor: pointer;
+}
+input[readonly], textarea[readonly] {
+    background-color: var(--color_blue-grey);
+    outline: none;
+    cursor: not-allowed;
+    user-select: none;
+}
+
+select {
+    background-color: var(--color_white);
+}

@@ -1,0 +1,111 @@
+{
+    "messages": {
+        "error": {
+            "dashboard": {
+                "movies": {
+                    "add-modify": {
+                        "title": "Titre invalide",
+                        "duration": "Durée invalide",
+                        "director": "Veuillez sélectionner un réalisateur",
+                        "release-date": "Date de sortie invalide",
+                        "synopsis": "Synopsis invalide",
+                        "poster": "URL de l'affiche invalide",
+                        "classification": "Veuillez sélectionner une classification",
+                        "first-screening-date": "Date de première projection invalide",
+                        "last-screening-date": "Date de première dernière invalide"
+                    },
+                    "delete": "Vous ne pouvez pas supprimer ce film car il est utilisé dans une séance"
+                },
+                "screenings": {
+                    "add-modify": {
+                        "movie": "Veuillez sélectionner un film",
+                        "movie-room": "Veuillez sélectionner une salle",
+                        "date": "Date invalide",
+                        "time": "Horaire invalide"
+                    },
+                    "delete": "Vous ne pouvez pas supprimer cette séance car elle est utilisée dans une réservation"
+                },
+                "reservations": {
+                    "add-modify": {
+                        "user": "Veuillez sélectionner un utilisateur",
+                        "screening": "Veuillez sélectioonner une séance",
+                        "seat": "Veuillez sélectionner une place",
+                        "pricing": "Veuillez sélectionner un tarif",
+                        "date": "Date invalide",
+                        "time": "Horaire invalide"
+                    },
+                    "delete": "Vous ne pouvez pas supprimer cette séance car elle est utilisée dans une réservation"
+                },
+                "movies-rooms": {
+                    "add-modify": {
+                        "name": "Nom invalide"
+                    },
+                    "delete": "Vous ne pouvez pas supprimer cette salle car elle est utilisée dans une séance ou une place"
+                },
+                "pricings": {
+                    "add-modify": {
+                        "name": "Nom invalide",
+                        "pricing": "Prix invalide"
+                    },
+                    "delete": "Vous ne pouvez pas supprimer ce tarif car il est utilisé dans une réservation"
+                },
+                "subscriptions": {
+                    "add-modify": {
+                        "name": "Nom invalide",
+                        "pricing": "Tarif invalide"
+                    },
+                    "delete": "Vous ne pouvez pas supprimer cet abonnement car il est utilisé par un utilisateur"
+                },
+                "users": {
+                    "add-modify": {
+                        "last-name": "Nom invalide",
+                        "first-name": "Prénom invalide",
+                        "email": "Adresse email invalide",
+                        "password": "Mot de passe invalide",
+                        "role": "Veuillez sélectionner un rôle"
+                    },
+                    "delete": "Vous ne pouvez pas supprimer cet utilisateur car il est utilisé dans une réservation ou un abonnement"
+                },
+                "directors": {
+                    "add-modify": {
+                        "name": "Nom invalide",
+                        "picture": "URL de l'image invalide"
+                    },
+                    "delete": "Vous ne pouvez pas supprimer ce réalisateur car il est utilisé dans un film"
+                }
+            },
+            "signin": {
+                "incorrect-email-password": "Adresse email ou mot de passe incorrect"
+            }
+        },
+        "success": {
+            "account": {
+                "signup": "Votre compte a bien été créé",
+                "signin": "Vous êtes bien connecté"
+            },
+            "dashboard": {
+                "add": {
+                    "movies": "Le film a bien été créé",
+                    "screenings": "La séance a bien été créée",
+                    "reservations": "La réservation a bien été créée",
+                    "movies_rooms": "La salle a bien été créée",
+                    "pricings": "Le tarif a bien été créé",
+                    "subscriptions": "L'abonnement a bien été créé",
+                    "users": "L'utilisateur a bien été créé",
+                    "directors": "Le réalisateur a bien été créé"
+                },
+                "modify": {
+                    "movies": "Le film a bien été modifié",
+                    "screenings": "La séance a bien été modifiée",
+                    "reservations": "La réservation a bien été modifiée",
+                    "movies_rooms": "La salle a bien été modifiée",
+                    "pricings": "Le tarif a bien été modifié",
+                    "subscriptions": "L'abonnement a bien été modifié",
+                    "users": "L'utilisateur a bien été modifié",
+                    "directors": "Le réalisateur a bien été modifié",
+                    "profile": "Votre profil a bien été modifié"
+                }
+            }
+        }
+    }
+}

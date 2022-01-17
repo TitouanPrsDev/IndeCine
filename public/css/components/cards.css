@@ -1,0 +1,37 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cards-container.card-reserve .card h2 {
+    margin-bottom: .6rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.cards-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(25% - 1.5rem);
+    padding: 1.2rem 1.5rem;
+    border: 1px solid var(--color_light-grey);
+    border-radius: .5rem;
+    background-color: var(--color_white);
+    cursor: pointer;
+}
+
+.cards-container .card .title {
+    margin-bottom: .6rem;
+    font-weight: 500;
+    color: var(--color_grey);
+}
+
+.cards-container .card .value {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color_dark-grey);
+}

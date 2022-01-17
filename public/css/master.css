@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap'); */
+
+@import 'layout/header.css';
+@import 'layout/nav.css';
+@import 'layout/main.css';
+
+@import 'components/sidebars.css';
+@import 'components/forms.css';
+@import 'components/inputs.css';
+@import 'components/buttons.css';
+@import 'components/cards.css';
+@import 'components/messages.css';
+@import 'components/tables.css';
+@import 'components/tables-screenings.css';
+
+:root {
+    --color_white: #FFF;
+    --color_black: #000;
+
+    --color_light-grey: #E0E1E4;
+    --color_grey: #8C98A4;
+    --color_dark-grey: #3C4257;
+
+    --color_light-blue: #B8D9EF;
+    --color_blue: #635BFF;
+
+    --color_blue-grey: #F8FAFD;
+
+    --color_red: #EB5757;
+
+    --color_green: #27AE60;
+
+    --color_background: #F7FAFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 14px "Poppins", sans-serif;
+    line-height: 1.2;
+    letter-spacing: .02rem;
+}
+
+body {
+    background-color: var(--color_background);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 1rem;
+}
