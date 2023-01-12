@@ -1,2 +1,2 @@
 # IndeCine
-Web application
+Web application created with Symphony framework
